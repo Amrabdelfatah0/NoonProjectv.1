@@ -13,9 +13,9 @@ namespace NoonProject.Parent
     public class EntityDbContext:DbContext
 
     {
-        public DbSet<Seller> Seller { get; set;}
-        public DbSet<Client> Client { get; set; }
-        public DbSet<User> User { get; set; }
+        public DbSet<Seller>? Seller { get; set;}
+        public DbSet<Client>? Client { get; set; }
+        public DbSet<User>? User { get; set; }
 
         public const string ConnectionString = "server=(localDb)\\MSSQLLocalDB;Database=EntityDb;Trusted_connection=True";
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

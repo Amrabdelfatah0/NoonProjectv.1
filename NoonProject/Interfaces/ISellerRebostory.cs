@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NoonProject.Interfaces
 {
-    public class ISellerRebostory
+    public interface ISellerRebostory
 
     {
         void Add(Seller obj);
