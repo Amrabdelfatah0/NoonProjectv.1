@@ -1,14 +1,12 @@
-﻿using NoonProject.Parent;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NoonProject.Models.Seller
+namespace NoonProject.Models.Communication
 {
-    public class Seller : Pepole
+    internal class Messaging
     {
-
     }
 }

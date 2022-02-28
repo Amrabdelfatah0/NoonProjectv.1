@@ -15,4 +15,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ConsoleServices\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="service\" />
+  </ItemGroup>
+
 </Project>

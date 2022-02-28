@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using NoonProject.Models;
+using NoonProject.Models.Address;
 using NoonProject.Models.Client;
-using NoonProject.Models.Seller;
+using NoonProject.Models.Communication;
 using NoonProject.Models.User;
 using System;
 using System.Collections.Generic;
@@ -13,8 +15,11 @@ namespace NoonProject.Parent
     public class EntityDbContext:DbContext
 
     {
-        public DbSet<Seller>? Seller { get; set;}
-        public DbSet<Client>? Client { get; set; }
+        public DbSet<Governrote> governrotes { get; set; }
+        public DbSet<City> cities { get; set; }
+        public DbSet<Mobile> mobiles { get; set; }
+        public DbSet<Addres> addresses { get; set; }
+        public DbSet<UserRole> userRoles { get; set; }
         public DbSet<User>? User { get; set; }
 
         public const string ConnectionString = "server=(localDb)\\MSSQLLocalDB;Database=EntityDb;Trusted_connection=True";
