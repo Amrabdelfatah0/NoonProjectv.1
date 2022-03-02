@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NoonProject.Audits
 {
-    public class FullAudit : Audits
+    public class FullAudit : Audit
     {
         public DateTime DeletedTime { get; set; }
         public bool IsDelete { get; set; }

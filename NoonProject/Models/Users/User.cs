@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NoonProject.Models.User
+namespace NoonProject.Models.Users
 {
     public class User : Pepole
 
@@ -19,7 +19,7 @@ namespace NoonProject.Models.User
         public int UserRoleId { get; set; }
         public UserRole userRole { get; set; }
         public List<Mobile> mobiles { get; set; }
-        public List<Addres> addresses { get; set; }
+        public List<Address.Address> addresses { get; set; }
       
 
     }

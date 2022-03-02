@@ -1,4 +1,4 @@
-﻿using NoonProject.Base;
+﻿using NoonProject.Bases;
 using NoonProject.Models;
 using NoonProject.Models.Address;
 using System;
@@ -16,7 +16,7 @@ namespace NoonProject.Parent
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime BrithDay { get; set; }
-        public List<Addres> addresses { get; set; }
+        public List<Address> addresses { get; set; }
         [NotMapped]
         public string FullName { get { return $"{FirstName} {LastName}"; } }
 
