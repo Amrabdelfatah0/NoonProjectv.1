@@ -1,9 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NoonProject.Models;
 using NoonProject.Models.Address;
-using NoonProject.Models.Client;
 using NoonProject.Models.Communication;
-using NoonProject.Models.User;
+using NoonProject.Models.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +26,6 @@ namespace NoonProject.Parent
         {
             optionsBuilder.UseSqlServer(ConnectionString);
         }
-
+       
     }
 }

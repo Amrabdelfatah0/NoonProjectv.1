@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NoonProject.Bases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NoonProject.Audits
 {
-    public class Audits : Base
+    public class Audit : Base
     {
       
             public int? CreatedBy { get; set; }

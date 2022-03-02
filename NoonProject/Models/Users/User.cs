@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NoonProject.Models.User
+namespace NoonProject.Models.Users
 {
     public class User : Pepole
 
