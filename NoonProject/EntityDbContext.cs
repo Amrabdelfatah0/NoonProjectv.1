@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NoonProject.Models;
-using NoonProject.Models.Address;
+using NoonProject.Models.Addresss;
+using NoonProject.Models.Category;
 using NoonProject.Models.Communication;
 using NoonProject.Models.Users;
 using System;
@@ -20,6 +21,8 @@ namespace NoonProject.Parent
         public DbSet<Address> addresses { get; set; }
         public DbSet<UserRole> userRoles { get; set; }
         public DbSet<User> User { get; set; }
+        public DbSet<Product> products { get; set; }
+
 
         public const string ConnectionString = "server=(localDb)\\MSSQLLocalDB;Database=EntityDb;Trusted_connection=True";
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

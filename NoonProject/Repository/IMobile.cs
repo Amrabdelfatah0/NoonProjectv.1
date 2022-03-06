@@ -1,4 +1,5 @@
-﻿using NoonProject.Models.Communication;
+﻿using NoonProject.Models;
+using NoonProject.Models.Communication;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,12 +8,11 @@ using System.Threading.Tasks;
 
 namespace NoonProject.Repository
 {
-    public interface IMobileRepository : IGenericCRUD<Mobile>
+    public interface IMobile : IGenericCRUD<Mobile>, IValidation<Mobile>
     {
         List<Mobile> GetAll(int UserId);
-        bool IsExist(int Id);
         bool IsExist(string Mobile);
-        bool IsExist(Mobile entity);
         bool IsUserHasMobile(int UserId);
+       
     }
 }

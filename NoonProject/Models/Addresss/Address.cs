@@ -1,4 +1,5 @@
 ﻿using NoonProject.Audits;
+using NoonProject.Models.Addresss;
 using NoonProject.Models.Users;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NoonProject.Models.Address
+namespace NoonProject.Models.Addresss
 {
     public class Address : Audit
     {

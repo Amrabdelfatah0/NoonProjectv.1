@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NoonProject.Repository
 {
-    public interface IUserRepository : IGenericCRUD<User>
+    public interface IUser : IGenericCRUD<User>
     {
         bool IsPasswordMatch(string Password, string ConfirmPassword);
         User LogIn(string UserName, string Password);

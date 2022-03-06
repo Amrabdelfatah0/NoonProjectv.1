@@ -1,4 +1,4 @@
-﻿using NoonProject.Models.Address;
+﻿using NoonProject.Models.Addresss;
 using NoonProject.Models.Communication;
 using NoonProject.Parent;
 using System;
@@ -19,7 +19,7 @@ namespace NoonProject.Models.Users
         public int UserRoleId { get; set; }
         public UserRole userRole { get; set; }
         public List<Mobile> mobiles { get; set; }
-        public List<Address.Address> addresses { get; set; }
+        public List<Address> addresses { get; set; }
       
 
     }

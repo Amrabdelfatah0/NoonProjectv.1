@@ -1,6 +1,7 @@
-﻿using NoonProject.Bases;
+﻿using NoonProject.Audits;
+using NoonProject.Bases;
 using NoonProject.Models;
-using NoonProject.Models.Address;
+using NoonProject.Models.Addresss;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace NoonProject.Parent
 {
-    public class Pepole :BaseWithName
+    public class Pepole :Audit
 
     {
         public string FirstName { get; set; }

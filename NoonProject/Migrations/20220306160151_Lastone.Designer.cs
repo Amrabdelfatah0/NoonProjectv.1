@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NoonProject.Parent;
 
@@ -11,9 +12,10 @@ using NoonProject.Parent;
 namespace NoonProject.Migrations
 {
     [DbContext(typeof(EntityDbContext))]
-    partial class EntityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220306160151_Lastone")]
+    partial class Lastone
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
