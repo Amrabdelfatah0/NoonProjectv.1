@@ -12,6 +12,7 @@ namespace NoonProject.Models.Communication
     {
         public string Number { get; set; }
         public int UserId { get; set; }
+        // Foriegn key
         public User user { get; set; }
     }
 }

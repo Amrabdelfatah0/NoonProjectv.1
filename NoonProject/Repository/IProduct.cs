@@ -11,7 +11,7 @@ namespace NoonProject.Repository
     {
         void Active(int id);
         void Dective(int id);
-        List<Product> GetAll();
+        List<Product> GetAll();//not needed
         bool IsProductValid(Product entity);
     }
 }
