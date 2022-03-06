@@ -19,7 +19,7 @@ namespace NoonProject.Models.Users
         public int UserRoleId { get; set; }
         public UserRole userRole { get; set; }
         public List<Mobile> mobiles { get; set; }
-        public List<Addres> addresses { get; set; }
+        public List<Address.Address> addresses { get; set; }
       
 
     }

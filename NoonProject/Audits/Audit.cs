@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using NoonProject.Bases;
 namespace NoonProject.Audits
 {
     public class Audit : Base
