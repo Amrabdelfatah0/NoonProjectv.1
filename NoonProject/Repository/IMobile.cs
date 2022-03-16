@@ -13,6 +13,5 @@ namespace NoonProject.Repository
         List<Mobile> GetAll(int UserId);
         bool IsExist(string Mobile);
         bool IsUserHasMobile(int UserId);
-       
     }
 }

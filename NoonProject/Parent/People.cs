@@ -11,9 +11,9 @@ using System.Threading.Tasks;
 
 namespace NoonProject.Parent
 {
-    public class Pepole :Audit
-
+    public class People :Audit
     {
+
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime BrithDay { get; set; }

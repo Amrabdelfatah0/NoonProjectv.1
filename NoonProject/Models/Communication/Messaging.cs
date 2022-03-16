@@ -9,5 +9,6 @@ namespace NoonProject.Models.Communication
 {
     public class Messaging :Audit
     {
+
     }
 }
