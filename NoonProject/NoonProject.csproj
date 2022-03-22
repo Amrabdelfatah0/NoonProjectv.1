@@ -17,6 +17,8 @@
 
   <ItemGroup>
     <Folder Include="Interfaces\" />
+    <Folder Include="Models\Main Categorys\SealMobile\" />
+    <Folder Include="Models\Main Categorys\Fashion\" />
   </ItemGroup>
 
 </Project>

@@ -1,15 +1,14 @@
 ﻿using NoonProject.Audits;
-using NoonProject.Models.Category;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NoonProject.Models.Advertisements
+namespace NoonProject.Models.Main_Category.vehicles.Sale
 {
-    public class Advertisement : Audit
-
+    public class Sales : Audit
     {
+
     }
 }
