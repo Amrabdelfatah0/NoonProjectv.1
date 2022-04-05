@@ -10,7 +10,8 @@ namespace NoonProject.Models.Main_Category
 {
     public class MainCategory: Base
     {
-        public Vehicle Vehicle { get; set; }
+        public string Name { get; set; }
+        public string IconName { get; set; }
 
     }
 }
