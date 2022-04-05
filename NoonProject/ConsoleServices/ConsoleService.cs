@@ -121,6 +121,7 @@ namespace NoonProject.ConsoleServices
                 }
                 else
                 {
+                    // search by filter
                     Console.WriteLine($"Hello {user.FullName}\n");
                     Console.WriteLine("Please insert number of action\n" +
                         "1. view products\n" +
@@ -168,8 +169,9 @@ namespace NoonProject.ConsoleServices
             Console.WriteLine($"Wellcome {user.FullName}!");
             for (; ; )
             {
+                // add attribute , add attribute option,add main category , add subcategory
                 Console.WriteLine("Please choose number of action\n-----\n" +
-                    "1.Display all product\n" +
+                    "1.Display all product by category id\n" +
                     "2.Insert new product\n" +
                     "3.Active Product\n" +
                     "4.Dective Product\n" +
@@ -214,6 +216,7 @@ namespace NoonProject.ConsoleServices
        
         private static void ViewProducts()
         {
+            // discplay by category id
             ProductService productService = new ProductService();
             List<Product> products = productService.Get();
             foreach (var product in products)
@@ -259,6 +262,9 @@ namespace NoonProject.ConsoleServices
 
         private static void GetAllProduct()
         {
+            // get all main category : Category id and category name
+            // please choose category id
+            // get product by category id
             ProductService productService = new ProductService();
             List<Product> products = productService.GetAll();
             Console.WriteLine("All product\n_______________\n");
